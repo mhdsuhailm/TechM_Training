@@ -1,0 +1,22 @@
+<!-- 5. Create a confirmation box , to check if the user will go the film today and display the result -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <script>
+      let willGoToFilm = confirm("Are you going to the film today?");
+      if (willGoToFilm) {
+        alert("Great! Enjoy your movie!");
+        document.getElementById("demo").innerHTML = "hurray..!going to movie";
+      } else {
+        alert("Maybe next time!");
+        document.getElementById("demo").innerHTML = "ooh.... :)";
+      }
+    </script>
+  </body>
+</html>

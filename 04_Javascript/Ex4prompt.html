@@ -1,0 +1,18 @@
+<!-- 4. Create an alert to display the address of the user, and get the input from the user for the same -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h4 id="demo"></h4>
+
+    <script>
+      let address = prompt("Enter your address:");
+      alert("Your address is: " + address);
+      document.getElementById("demo").innerHTML = address;
+    </script>
+  </body>
+</html>

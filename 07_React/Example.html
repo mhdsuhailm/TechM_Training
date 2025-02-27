@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.22.10/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root1"></div>
+    <div id="root2"></div>
+
+    <script type="text/javascript">
+      let rt1 = document.getElementById("root1");
+      let header1 = document.createElement("h1");
+
+      header1.innerText = "About React!!!";
+      rt1.appendChild(header1);
+    </script>
+    <script type="text/jsx">
+      let rt2 = document.getElementById("root2");
+
+      ReactDOM.render(<h1>React with JSX!!</h1>,rt2);
+    </script>
+    <div id="root"></div>
+    <script type="text/jsx" src="react.jsx"></script>
+  </body>
+</html>
