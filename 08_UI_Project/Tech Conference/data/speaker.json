@@ -1,0 +1,62 @@
+[
+    {
+        "name": "David Brown",
+        "designation": "Blockchain Expert, Crypto Co.",
+        "image": "img/team/team-01.jpg",
+        "description": "David is a leading expert in blockchain technology, specializing in decentralized finance and smart contracts."
+    },
+    {
+        "name": "Sophia Wilson",
+        "designation": "Product Manager, Amazon",
+        "image": "img/team/team-02.jpg",
+        "description": "Sophia has over a decade of experience in product management, driving innovation in e-commerce and AI-driven solutions."
+    },
+    {
+        "name": "Robert Lee",
+        "designation": "Cybersecurity Specialist, CyberSafe",
+        "image": "img/team/team-03.jpg",
+        "description": "Robert is a cybersecurity veteran, helping organizations protect their data from emerging threats and cyberattacks."
+    },
+    {
+        "name": "Jessica Adams",
+        "designation": "Marketing Director, Facebook",
+        "image": "img/team/team-04.jpg",
+        "description": "Jessica leads global marketing campaigns, leveraging data analytics and social media strategies to maximize brand impact."
+    },
+    {
+        "name": "William Carter",
+        "designation": "Machine Learning Engineer, Google",
+        "image": "img/team/team-05.jpg",
+        "description": "William specializes in developing cutting-edge AI models, focusing on deep learning and neural network advancements."
+    },
+    {
+        "name": "Emma Roberts",
+        "designation": "UX Designer, Apple",
+        "image": "img/team/team-06.jpg",
+        "description": "Emma is a user experience designer, crafting intuitive and engaging digital interfaces for millions of users worldwide."
+    },
+    {
+        "name": "John Doe",
+        "designation": "CEO, Tech Innovators",
+        "image": "img/speaker/speakers-1.jpg",
+        "description": "John is the visionary behind Tech Innovators, leading advancements in AI, automation, and future tech."
+    },
+    {
+        "name": "Jane Smith",
+        "designation": "Lead Designer, Creative Labs",
+        "image": "img/speaker/speakers-2.jpg",
+        "description": "Jane is an award-winning designer, creating visually stunning and user-friendly interfaces for global brands."
+    },
+    {
+        "name": "Michael Johnson",
+        "designation": "CTO, Future Tech",
+        "image": "img/speaker/speakers-3.jpg",
+        "description": "Michael oversees technical innovation at Future Tech, driving advancements in cloud computing and AI."
+    },
+    {
+        "name": "Emily White",
+        "designation": "AI Researcher, OpenAI",
+        "image": "img/speaker/speakers-4.jpg",
+        "description": "Emily is an AI researcher dedicated to making artificial intelligence more ethical, transparent, and accessible."
+    }
+]

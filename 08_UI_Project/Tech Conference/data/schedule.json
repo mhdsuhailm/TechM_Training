@@ -1,0 +1,38 @@
+{
+    "events": [
+        {
+            "name": "Keynote Speech",
+            "date": "2025-03-05T10:00:00"
+        },
+        {
+            "name": "Panel Discussion",
+            "date": "2025-03-06T15:00:00"
+        }
+    ],
+    "schedule": [
+        {
+            "time": "10:00 AM",
+            "session": "Keynote Speech",
+            "speaker": "Dr. John Doe",
+            "track": "AI"
+        },
+        {
+            "time": "11:30 AM",
+            "session": "Cybersecurity Trends",
+            "speaker": "Jane Smith",
+            "track": "Security"
+        },
+        {
+            "time": "2:00 PM",
+            "session": "Machine Learning in Healthcare",
+            "speaker": "Alice Johnson",
+            "track": "AI"
+        },
+        {
+            "time": "3:30 PM",
+            "session": "Blockchain & Security",
+            "speaker": "Bob Williams",
+            "track": "Security"
+        }
+    ]
+}

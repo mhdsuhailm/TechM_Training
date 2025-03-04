@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+/* Section Styling */
+.section-padding {
+  margin-top: 10%;
+  margin-bottom: 1%;
+}
+
+.section-title-header {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 2em;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Image Container for Zoom Effect */
+.speaker-img-container {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+/* Speaker Container */
+#speakers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Speaker Card */
+.speaker-card {
+  background: #fff;
+  width: 280px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin: 15px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInAnimation 0.8s ease-in-out forwards;
+}
+
+/* Hover effect on card */
+.speaker-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Speaker Image */
+.speaker-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect: Zoom image */
+.speaker-card:hover .speaker-img {
+  transform: scale(1.1);
+}
+
+/* Speaker Info */
+.speaker-info {
+  margin-top: 15px;
+}
+
+.speaker-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.speaker-designation {
+  font-size: 0.9em;
+  color: #777;
+  margin: 5px 0;
+}
+
+.speaker-description {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #speakers-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .speaker-card {
+    width: 90%;
+  }
+}
+/* Fade-in Animation */
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

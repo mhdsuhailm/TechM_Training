@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Ticket</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <header>
+    <div class="logo">InnovateX</div>
+    <nav>
+      <ul class="nav-links" id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="speakers.html">Speakers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+  <body>
+    <div class="booking-container">
+      <h2>Book Your Ticket</h2>
+      <form id="bookingForm">
+        <input type="text" id="name" placeholder="Full Name" required />
+        <input type="email" id="email" placeholder="Email Address" required />
+        <input type="tel" id="phone" placeholder="Phone Number" required />
+        <select id="event" required>
+          <option value="">Select Event</option>
+          <option value="Event 1">Event 1</option>
+          <option value="Event 2">Event 2</option>
+        </select>
+        <button type="submit">Book Now</button>
+      </form>
+    </div>
+    <div id="successPopup" class="popup">Ticket Booked Successfully!</div>
+  </body>
+</html>

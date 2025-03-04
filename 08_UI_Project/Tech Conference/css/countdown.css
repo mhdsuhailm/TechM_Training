@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  text-align: center;
+}
+
+.countdown-timer {
+  width: 100%;
+  padding: 30px 0;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.event-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+/* Countdown Box */
+.time-countdown {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.time-box {
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 100px;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.time-box span {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  display: block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Number Update Animation */
+@keyframes numberChange {
+  0% {
+    transform: scale(1);
+    color: black;
+  }
+  50% {
+    transform: scale(1.2);
+    color: #ff5733;
+  }
+  100% {
+    transform: scale(1);
+    color: black;
+  }
+}
+
+.time-box p {
+  font-size: 14px;
+  color: gray;
+  margin: 5px 0 0;
+}
+
+/* Hover Effect */
+.time-box:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .time-countdown {
+    gap: 10px;
+  }
+
+  .time-box {
+    width: 80px;
+    padding: 15px;
+  }
+
+  .time-box span {
+    font-size: 22px;
+  }
+
+  .time-box p {
+    font-size: 12px;
+  }
+}
