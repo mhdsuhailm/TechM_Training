@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "email": "test@example.com",
+      "password": "1234"
+    },
+    {
+      "id": "c7ef",
+      "email": "abc@gmail.com",
+      "password": "abcde123"
+    }
+  ],
+  "books": [
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "A classic novel set in the Roaring Twenties.",
+      "genre": "Classic",
+      "image": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UF1000,1000_QL80_.jpg",
+      "link": "https://www.amazon.com/Great-Gatsby-F-Scott-Fitzgerald/dp/0743273567"
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "description": "A dystopian story of government surveillance.",
+      "genre": "Dystopian",
+      "image": "https://m.media-amazon.com/images/I/61ZewDE3beL._AC_UF1000,1000_QL80_.jpg",
+      "link": "https://www.amazon.com/1984-Signet-Classics-George-Orwell/dp/0451524934"
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": "A powerful novel about racial injustice.",
+      "genre": "Drama",
+      "image": "https://m.media-amazon.com/images/I/81aY1lxk+9L._AC_UF1000,1000_QL80_.jpg",
+      "link": "https://www.amazon.com/Kill-Mockingbird-Harper-Lee/dp/0061120081"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "description": "A romantic novel of manners.",
+      "genre": "Romance",
+      "image": "https://m.media-amazon.com/images/I/71Q1tPupKjL._AC_UF1000,1000_QL80_.jpg",
+      "link": "https://www.amazon.com/Pride-Prejudice-Jane-Austen/dp/1503290564"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "description": "A story of teenage rebellion and alienation.",
+      "genre": "Fiction",
+      "image": "https://m.media-amazon.com/images/I/91HPG31dTwL._AC_UF1000,1000_QL80_.jpg",
+      "link": "https://www.amazon.com/Catcher-Rye-J-D-Salinger/dp/0316769487"
+    },
+    {
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "description": "An epic tale of obsession and revenge.",
+      "genre": "Adventure",
+      "image": "https://th.bing.com/th/id/R.752014d2675370705721d78a8cfb0cea?rik=kE8GNpVQv6W6wg&riu=http%3a%2f%2fis4.mzstatic.com%2fimage%2fthumb%2fPublication%2fv4%2ff7%2ff0%2f96%2ff7f0969f-ea1b-3ce8-cebf-16e28034dd65%2fsource%2f1500x2400sr.jpg&ehk=0lQHbK7KJMuvRJK3LZBe5I4C8zzYfRjuNSX9wcJTsx8%3d&risl=&pid=ImgRaw&r=0",
+      "link": "https://www.amazon.com/Moby-Dick-Herman-Melville/dp/150328078X"
+    }
+  ]
+}
