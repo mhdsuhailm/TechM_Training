@@ -1,4 +1,4 @@
-import { Book } from './../../../../project/src/app/models/book.model';
+import { Book } from '../models/book.model';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
@@ -7,7 +7,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class BookService {
-  private apiUrl = 'http://localhost:4500/books'; // Mock API
+  private apiUrl = 'http://localhost:4500/books'; 
   private booksSubject = new BehaviorSubject<Book[]>([]);
   books$ = this.booksSubject.asObservable();
 
@@ -21,14 +21,14 @@ export class BookService {
     });
   }
 
-  getBooks(): Observable<any[]> {
-    return this.http.get<any[]>(this.apiUrl);
+  getBookById(id: number): Observable<Book> {
+    return this.http.get<Book>(`${this.apiUrl}/${id}`);
   }
 
   addBook(book: Book) {
     this.http.post<Book>(this.apiUrl, book).subscribe((newBook) => {
       const currentBooks = this.booksSubject.value;
-      this.booksSubject.next([...currentBooks, newBook]); 
+      this.booksSubject.next([...currentBooks, newBook]);
     });
   }
 }

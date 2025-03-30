@@ -1,0 +1,11 @@
+{
+  "login": "Iniciar sesión",
+  "email": "Correo electrónico",
+  "password": "Contraseña",
+  "user": "Usuario",
+  "admin": "Administrador",
+  "fillFields": "Por favor complete todos los campos",
+  "invalidRole": "Rol inválido o acceso denegado",
+  "loginFailed": "Error de inicio de sesión",
+  "noAccount": "¿No tienes una cuenta? Regístrate"
+}

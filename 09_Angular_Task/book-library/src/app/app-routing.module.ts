@@ -9,6 +9,7 @@ export const routes: Routes = [
   { path: 'books', component: BookListComponent },
   { path: 'add', component: AddBookComponent },
   { path: 'books/:id', component: BookDetailComponent },
+  { path: 'book-details/:id', component: BookDetailComponent }, 
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

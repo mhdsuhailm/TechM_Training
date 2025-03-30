@@ -1,0 +1,13 @@
+{
+  "login": "Login",
+  "email": "Email",
+  "password": "Password",
+  "user": "User",
+  "admin": "Admin",
+  "fillFields": "Please fill in all fields",
+  "fillAllFields": "Please fill in all fields",
+  "invalidRole": "Invalid role or access denied",
+  "loginFailed": "Login failed",
+  "dontHaveAccount": "Don't have an account? Register",
+  "noAccount": "Don't have an acFcount? Register"
+}

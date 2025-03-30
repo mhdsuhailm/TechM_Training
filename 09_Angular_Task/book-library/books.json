@@ -6,7 +6,9 @@
       "author": "F. Scott Fitzgerald",
       "genre": "Classic",
       "rating": 4.5,
-      "isAvailable": true
+      "isAvailable": true,
+      "imageUrl": "https://cdn.kobo.com/book-images/5addc4c9-fbc1-42d7-a79f-cec7619d4b23/1200/1200/False/the-great-gatsby-a-novel-1.jpg",
+      "description": "A story of wealth, love, and the American Dream set in the Roaring Twenties."
     },
     {
       "id": "2",
@@ -14,7 +16,9 @@
       "author": "George Orwell",
       "genre": "Science Fiction",
       "rating": 4.8,
-      "isAvailable": false
+      "isAvailable": false,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEfcVm10nBMa6WRwtUPsP52CxOfTFM_pa2SMQjnYdH5mYdfk8EHU3QMZl2J7XcvNhsbsw&usqp=CAU",
+      "description": "A dystopian novel exploring totalitarianism and surveillance."
     },
     {
       "id": "3",
@@ -22,23 +26,9 @@
       "author": "Jane Austen",
       "genre": "Romance",
       "rating": 4.3,
-      "isAvailable": true
-    },
-    {
-      "id": 1741345217267,
-      "title": "abc",
-      "author": "abc",
-      "genre": "Romance",
-      "rating": 5,
-      "isAvailable": true
-    },
-    {
-      "id": "0a72",
-      "title": "hello",
-      "author": "jhon",
-      "genre": "Classic",
-      "rating": 5,
-      "isAvailable": true
+      "isAvailable": true,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoZkAesv4rdm8x4AhTB82EHW7AvnjefVYNnw&s",
+      "description": "A timeless romance novel about love, class, and society."
     },
     {
       "id": "4",
@@ -46,15 +36,19 @@
       "author": "Harper Lee",
       "genre": "Classic",
       "rating": 4.9,
-      "isAvailable": true
+      "isAvailable": true,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9pR7KzSeGsPJq2Ecs-S0X_Yd2jIAvMWvMTlPUWW9rJnB-J_zwSC8RffgwkVEoOiS-th8&usqp=CAU",
+      "description": "A powerful tale of racial injustice and moral growth."
     },
     {
       "id": "5",
       "title": "Moby Dick",
       "author": "Herman Melville",
       "genre": "Adventure",
-      "rating": 4,
-      "isAvailable": false
+      "rating": 4.0,
+      "isAvailable": false,
+      "imageUrl": "https://atomicbooks.com/cdn/shop/products/mobydickpc_800x.jpg?v=1613184422",
+      "description": "A classic adventure of obsession and revenge at sea."
     },
     {
       "id": "6",
@@ -62,7 +56,9 @@
       "author": "J.D. Salinger",
       "genre": "Fiction",
       "rating": 4.2,
-      "isAvailable": true
+      "isAvailable": true,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1520486940i/39079601.jpg",
+      "description": "A novel about teenage angst and alienation."
     },
     {
       "id": "7",
@@ -70,7 +66,9 @@
       "author": "Aldous Huxley",
       "genre": "Dystopian",
       "rating": 4.7,
-      "isAvailable": false
+      "isAvailable": false,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQVnus8mm3ta96Tb37WVMZDifvRDcf_CTg4w&s",
+      "description": "A futuristic vision of a society driven by technology and control."
     },
     {
       "id": "8",
@@ -78,7 +76,9 @@
       "author": "J.R.R. Tolkien",
       "genre": "Fantasy",
       "rating": 4.9,
-      "isAvailable": true
+      "isAvailable": true,
+      "imageUrl": "https://rukminim2.flixcart.com/image/850/1000/kigbjbk0-0/book/r/t/l/the-hobbit-original-imafy92hn8guwx35.jpeg?q=90&crop=false",
+      "description": "An epic fantasy adventure leading to the events of The Lord of the Rings."
     },
     {
       "id": "9",
@@ -86,7 +86,9 @@
       "author": "J.K. Rowling",
       "genre": "Fantasy",
       "rating": 4.9,
-      "isAvailable": true
+      "isAvailable": true,
+      "imageUrl": "https://www.jkrowling.com/wp-content/uploads/2016/11/HPTSS-1.png",
+      "description": "The magical beginning of the Harry Potter series."
     },
     {
       "id": "10",
@@ -94,7 +96,9 @@
       "author": "Paulo Coelho",
       "genre": "Philosophy",
       "rating": 4.6,
-      "isAvailable": false
+      "isAvailable": false,
+      "imageUrl": "https://rukminim3.flixcart.com/image/850/1000/xif0q/book/z/a/r/alchemist-english-original-imagvqnmhg5tnfbu.jpeg?q=90&crop=false",
+      "description": "A journey of self-discovery and following one's dreams."
     },
     {
       "id": "11",
@@ -102,55 +106,59 @@
       "author": "Leo Tolstoy",
       "genre": "Historical Fiction",
       "rating": 4.8,
-      "isAvailable": true
+      "isAvailable": true,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFGNyOU8qUjcKT_T8TQplUR2M-EyIfULXjzw&s",
+      "description": "An epic novel about love, war, and Russian society."
     },
     {
       "id": "12",
       "title": "The Lord of the Rings",
       "author": "J.R.R. Tolkien",
       "genre": "Fantasy",
-      "rating": 5,
-      "isAvailable": true
+      "rating": 5.0,
+      "isAvailable": true,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-fGDl15SpOjBMobAWH0lbx5XcwQqVjt8EHRDjOVN9KNCglcAf6tinyx5rI-GHv6zSiI4&usqp=CAU",
+      "description": "A legendary high-fantasy novel of adventure and power."
     },
     {
       "id": "13",
       "title": "Crime and Punishment",
       "author": "Fyodor Dostoevsky",
-      "genre": "Psychological Fiction",
+      "genre": "Philosophical Fiction",
       "rating": 4.7,
-      "isAvailable": false
+      "isAvailable": false,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBGn5FvKWPJ92QnGYIi9xI4IIHO84Nw0pVzg&s",
+      "description": "A psychological exploration of guilt and redemption."
     },
     {
       "id": "14",
       "title": "Frankenstein",
       "author": "Mary Shelley",
-      "genre": "Horror",
-      "rating": 4.5,
-      "isAvailable": true
+      "genre": "Gothic Horror",
+      "rating": 4.3,
+      "isAvailable": true,
+      "imageUrl": "https://images.booksense.com/images/977/862/9780061862977.jpg",
+      "description": "A tale of scientific ambition and its consequences."
     },
     {
       "id": "15",
       "title": "The Odyssey",
       "author": "Homer",
-      "genre": "Epic",
-      "rating": 4.6,
-      "isAvailable": true
+      "genre": "Epic Poetry",
+      "rating": 4.5,
+      "isAvailable": true,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs4kQnfE8tKNHfBiQt0XNGjULoUd94jCH81g&s",
+      "description": "An epic journey of heroism and adventure."
     },
     {
-      "id": "0fd5",
-      "title": "hello",
-      "author": "jhon",
-      "genre": "Science Fiction",
-      "rating": 5,
-      "isAvailable": true
-    },
-    {
-      "id": "51b7",
-      "title": "atomic habits",
-      "author": "abc",
-      "genre": "Science Fiction",
-      "rating": 3,
-      "isAvailable": true
+      "id": "16",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self-Help",
+      "rating": 4.9,
+      "isAvailable": true,
+      "imageUrl": "https://th.bing.com/th/id/OIP.Rt7xeC5jf9vVzW8cViCsXgHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "description": "A guide to building good habits and breaking bad ones."
     }
   ]
 }

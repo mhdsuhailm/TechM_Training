@@ -1,1 +1,31 @@
-<p>book-detail works!</p>
+<div class="container book-details">
+  <div class="card shadow-lg p-4">
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <img [src]="book.imageUrl" alt="{{ book.title }}" class="img-fluid" style="max-width: 150px; height: 200px; object-fit: cover;">
+
+      </div>
+
+      <div class="col-md-8">
+        <h2 class="book-title">{{ book.title }}</h2>
+        <h5 class="text-muted">by {{ book.author }}</h5>
+        <p class="genre-badge">{{ book.genre }}</p>
+        <p class="rating-stars">{{ book.rating | rating }}</p>
+        <p class="book-description">
+          {{ book.description || 'No description available.' }}
+        </p>
+
+        <div class="d-flex justify-content-between">
+          <a
+            [href]="'https://www.amazon.com/s?k=' + book.title"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            Buy on Amazon
+          </a>
+          <button class="btn btn-secondary" (click)="goBack()">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
