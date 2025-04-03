@@ -1,0 +1,25 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"/>
+<sly data-sly-call="${clientLib.css @ categories='myTraining.header'}"/>
+
+<header class="header-container">
+    <nav>
+        <ul class="nav-links">
+            <li><a href="/content/myTraining/us/en/home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="/content/myTraining/us/en/news.html">News</a>
+                <ul class="dropdown-menu">
+                    <li><a href="/content/myTraining/us/en/news/live-news.html">Live-News</a></li>
+                    <li><a href="/content/myTraining/us/en/news/sports-news.html">Sports-News</a></li>
+                    <li><a href="/content/myTraining/us/en/news/tech-news.html">Tech-News</a></li>
+                    <li><a href="/content/myTraining/us/en/news/breaking-news.html">Breaking-News</a></li>
+                    <li><a href="/content/myTraining/us/en/news/economic-news.html">Economic-News</a></li>
+                </ul>
+            </li>
+            <li><a href="/content/myTraining/us/en/about-me.html">About Me</a></li>
+            <li><a href="/content/myTraining/us/en/contact-us.html">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
+
+<sly data-sly-call="${clientLib.js @ categories='myTraining.header'}"/>
+<sly data-sly-use.newsModel="com.myTraining.core.models.HeaderModel"/>

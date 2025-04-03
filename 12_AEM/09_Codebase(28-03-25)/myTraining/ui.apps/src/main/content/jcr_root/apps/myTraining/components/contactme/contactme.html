@@ -1,0 +1,16 @@
+<sly data-sly-use.contactMe="com.myTraining.core.models.ContactMeModel" />
+
+<div class="contact-me">
+    <h2>Contact Me</h2>
+    <p>Let's connect! Reach out via email or follow on social media.</p>
+
+    <h3>Email</h3>
+    <p><a href="mailto:${contactMe.email}">${contactMe.email}</a></p>
+
+    <h3>Follow on Social Media</h3>
+    <p>
+        <a href="${contactMe.linkedin}" target="_blank">LinkedIn</a> |
+        <a href="${contactMe.twitter}" target="_blank">Twitter</a> |
+        <a href="${contactMe.instagram}" target="_blank">Instagram</a>
+    </p>
+</div>

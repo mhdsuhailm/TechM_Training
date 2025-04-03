@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root
+        xmlns:sling="http://www.sling.apache.org/jcr/sling/1.0"
+        xmlns:cq="http://www.day.com/jcr/cq/1.0"
+        xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="cq:Dialog"
+        cq:dialogMode="floating"
+        jcr:title="Contact Me Component">
+
+    <content jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/coral/foundation/form">
+        <items jcr:primaryType="nt:unstructured">
+
+            <email jcr:primaryType="nt:unstructured"
+                   sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                   fieldLabel="Email Address"
+                   name="./email"/>
+
+            <linkedin jcr:primaryType="nt:unstructured"
+                      sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                      fieldLabel="LinkedIn Profile"
+                      name="./linkedin"/>
+
+            <twitter jcr:primaryType="nt:unstructured"
+                     sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                     fieldLabel="Twitter Profile"
+                     name="./twitter"/>
+
+            <instagram jcr:primaryType="nt:unstructured"
+                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                       fieldLabel="Instagram Profile"
+                       name="./instagram"/>
+
+        </items>
+    </content>
+
+</jcr:root>

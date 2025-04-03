@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="cq:Dialog"
+          jcr:title="Header Navigation"
+          sling:resourceType="cq/gui/components/authoring/dialog">
+    <content jcr:primaryType="nt:unstructured"
+             sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <navItems jcr:primaryType="nt:unstructured"
+                      sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                      fieldLabel="Navigation Items"
+                      composite="{Boolean}true"
+                      name="./navItems">
+                <field jcr:primaryType="nt:unstructured"
+                       sling:resourceType="granite/ui/components/coral/foundation/container">
+                    <title jcr:primaryType="nt:unstructured"
+                           sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                           fieldLabel="Title"
+                           name="./title"/>
+                    <link jcr:primaryType="nt:unstructured"
+                          sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                          fieldLabel="Link"
+                          name="./link"/>
+                </field>
+            </navItems>
+        </items>
+    </content>
+</jcr:root>

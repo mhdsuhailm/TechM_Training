@@ -1,0 +1,20 @@
+.contact-me {
+    padding: 20px;
+    background: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.contact-me h2, .contact-me h3 {
+    color: #333;
+}
+
+.contact-me a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-me a:hover {
+    text-decoration: underline;
+}
